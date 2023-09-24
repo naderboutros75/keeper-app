@@ -11,7 +11,7 @@ const App = () => (
       <Note
         key={note.key}
         title={note.title}
-        content={note.content.substring(0, 100)}
+        content={note.content}
       />
     ))}
     <Footer />
