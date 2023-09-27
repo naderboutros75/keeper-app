@@ -1,8 +1,12 @@
 import React from "react";
+import HighlightIcon from "@mui/icons-material/Highlight";
 
 const Header = () => (
   <header>
-    <h1>Keeper</h1>
+    <h1>
+      <HighlightIcon fontSize="large" />
+      Keeper
+    </h1>
   </header>
 );
 
